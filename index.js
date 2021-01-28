@@ -7,7 +7,7 @@ const CookieParser = require("cookie-parser");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 
-const port = process.env.port || 8000;
+const port = process.env.PORT || 8000;
 
 // DB connection.......
 mongoose
@@ -53,6 +53,6 @@ if (process.env.NODE_ENV === "production") {
 app.listen(port, () => {
   console.log(
     "hello duniya.........i m learning MERN here!!!!!!!!!!! at ",
-    process.env.port
+    process.env.PORT
   );
 });
