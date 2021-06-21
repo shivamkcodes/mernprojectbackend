@@ -1,7 +1,3 @@
-// exports.signout = (req, res) => {
-//     res.send("User SignOut! I am coming from the controllers");
-// };
-
 const User = require("../models/user");
 var jwt = require("jsonwebtoken");
 var expressJwt = require("express-jwt");
